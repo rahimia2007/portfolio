@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/mediaquery.css" />
+    <link rel="icon" href="imgs/fav-icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Abolfazl Rahimi</title>
+  </head>
+
+  <body>
+    <!-- ***** Header ***** -->
+    <!-- This input is for mobile mode -->
+    <input id="menu" type="checkbox" />
+    <header>
+      <div class="container header_container">
+        <img class="header-logo" src="./imgs/logo.png" alt="abolfazl-logo" />
+        <div class="header_menu-dark">
+          <nav class="header_menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <label class="mobile-menu" for="menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+      </div>
+    </header>
+    <main>
+      <!-- ***** Hero section ***** -->
+      <section id="home" class="section hero_section">
+        <div class="container hero_container">
+          <div class="img_section img_hero_section">
+            <img src="./imgs/my-photo-1.png" alt="" />
+          </div>
+          <div class="info_hero_section">
+            <h1 class="name_info_hero_section">Abolfazl <span>Rahimi</span></h1>
+            <h2 class="job_info_hero_section">Front-End Developer</h2>
+            <div class="social-media">
+              <a target="_blank" href="https://github.com/rahimia2007"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/rahimi.abolfazl.2007"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a target="_blank" href="mailto: rahimi.a.2007@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a target="_blank" href="https://t.me/rahimia1385"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </div>
+            <div class="buttons_info_hero_section">
+              <a href="#contact"><button>Get Connected</button></a>
+              <a href="./imgs/resume-ab.pdf" download="abolfazl-cv"
+                ><button>Download CV</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***** Header Skill ***** -->
+      <section class="section header_skill_section">
+        <div class="container header_skill_container">
+          <img src="./icons/html.svg" alt="html-icon" />
+          <img src="./icons/css.svg" alt="css-icon" />
+          <img src="./icons/sass.svg" alt="sass-icon" />
+          <img src="./icons/wordpress.svg" alt="wordpress" />
+          <img src="./icons/figma.svg" alt="figma-icon" />
+        </div>
+      </section>
+      <!-- ***** About ***** -->
+      <section id="about" class="section about_section">
+        <div class="container about_container">
+          <div class="img_section img_about_section">
+            <img src="./imgs/my-photo-2.png" alt="abolfazl-photo" />
+          </div>
+          <div class="content_about_section">
+            <h2 class="title_section title_about_section">About Me</h2>
+            <p class="about_paragraph">
+              Hello friends! I'm Abolfazl, a web designer and coder with a
+              passion for creativity and innovation. I specialize in HTML, CSS,
+              and WordPress, and love taking on new challenges. I'm open to
+              collaboration and eager to exchange ideas. Let's create something
+              amazing together in the world of web design!
+            </p>
+            <div class="about_percentage_me">
+              <div>
+                <h3>Satisfaction Clients</h3>
+                <span>100%</span>
+              </div>
+              <div>
+                <h3>Clients On WorldWides</h3>
+                <span>+5</span>
+              </div>
+              <div>
+                <h3>Projects Done</h3>
+                <span>+12</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***** Skills ***** -->
+      <section class="section skills_section">
+        <div class="container skills_container">
+          <h2 class="title_section title_skills_section">Skills</h2>
+          <div class="skills_wrapper">
+            <div class="skills_item">
+              <img class="skills_item-img" src="./icons/html.svg" />
+              <h4 class="skills_item-title">html</h4>
+              <span class="skills_item-level">80%</span>
+              <div class="skills_item-progress">
+                <div class="skills_item-progress-level html-level"></div>
+              </div>
+            </div>
+
+            <div class="skills_item">
+              <img class="skills_item-img" src="./icons/css.svg" />
+              <h4 class="skills_item-title">css</h4>
+              <span class="skills_item-level">80%</span>
+              <div class="skills_item-progress">
+                <div class="skills_item-progress-level css-leve"></div>
+              </div>
+            </div>
+
+            <div class="skills_item">
+              <img class="skills_item-img" src="./icons/sass.svg" />
+              <h4 class="skills_item-title">sass</h4>
+              <span class="skills_item-level">50%</span>
+              <div class="skills_item-progress">
+                <div class="skills_item-progress-level sass-level"></div>
+              </div>
+            </div>
+
+            <div class="skills_item">
+              <img class="skills_item-img" src="./icons/wordpress.svg" />
+              <h4 class="skills_item-title">wordpress</h4>
+              <span class="skills_item-level">60%</span>
+              <div class="skills_item-progress">
+                <div class="skills_item-progress-level wordpress-level"></div>
+              </div>
+            </div>
+
+            <div class="skills_item">
+              <img class="skills_item-img" src="./icons/figma.svg" />
+              <h4 class="skills_item-title">figma</h4>
+              <span class="skills_item-level">40%</span>
+              <div class="skills_item-progress">
+                <div class="skills_item-progress-level figma-level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Service ***** -->
+      <section id="service" class="section service_section">
+        <div class="container service_container">
+          <h2 class="title_section title_service_section">Service</h2>
+          <div class="service_wrapper">
+            <div class="service_item">
+              <div class="service_icon">
+                <img src="./icons/service-3.svg" />
+              </div>
+              <h4 class="service_title">design</h4>
+              <p class="service_description">
+                I will design the most creative and beautiful sites for you.
+              </p>
+            </div>
+
+            <div class="service_item">
+              <div class="service_icon">
+                <img src="./icons/service-1.svg" />
+              </div>
+              <h4 class="service_title">programming</h4>
+              <p class="service_description">
+                Whatever you want, I will code for you in the best way.
+              </p>
+            </div>
+
+            <div class="service_item">
+              <div class="service_icon">
+                <img src="./icons/service-2.svg" />
+              </div>
+              <h4 class="service_title">clean code</h4>
+              <p class="service_description">
+                I code cleanly, so that you can understand what is what
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Portfolio ***** -->
+      <section id="portfolio" class="section portfolio_section">
+        <div class="container portfolio_container">
+          <h2 class="title_section title_portfolio_section">Portfolio</h2>
+          <div class="portfolio_wrapper">
+            <div class="portfolio_item">
+              <img class="portfolio_img" src="./imgs/portfolio-3.png" />
+              <span class="portfolio_title">company website</span>
+            </div>
+
+            <div class="portfolio_item">
+              <img class="portfolio_img" src="./imgs/portfolio-2.png" />
+              <span class="portfolio_title">beer landingpage</span>
+            </div>
+
+            <div class="portfolio_item">
+              <img class="portfolio_img" src="./imgs/portfolio-1.png" />
+              <span class="portfolio_title">masirban website</span>
+            </div>
+
+            <div class="portfolio_item">
+              <img class="portfolio_img" src="./imgs/portfolio-4.png" />
+              <span class="portfolio_title">nft landingpage</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Contact ***** -->
+      <section id="contact" class="section contact_section">
+        <div class="container contact_container">
+          <h2 class="title_section title_contact_section">Contact</h2>
+          <div class="contact-wrapper">
+            <div class="contact_info">
+              <div class="contact_info-item">
+                <div class="contact_info-item-icon">
+                  <img src="./icons/contact-1.svg" alt="" />
+                </div>
+                <div class="contact_info-item-content">
+                  <h5 class="contact_info-item-content-title">address</h5>
+                  <p class="contact_info-item-content-value">iran, karaj</p>
+                </div>
+              </div>
+
+              <div class="contact_info-item">
+                <div class="contact_info-item-icon">
+                  <img src="./icons/contact-2.svg" alt="" />
+                </div>
+                <div class="contact_info-item-content">
+                  <h5 class="contact_info-item-content-title">email</h5>
+                  <p class="contact_info-item-content-value">
+                    rahimi.a.2007@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact_info-item">
+                <div class="contact_info-item-icon">
+                  <img src="./icons/contact-3.svg" alt="" />
+                </div>
+                <div class="contact_info-item-content">
+                  <h5 class="contact_info-item-content-title">phone</h5>
+                  <p class="contact_info-item-content-value">09015938070</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact_form">
+              <form action="">
+                <input type="text" placeholder="your name" />
+                <input type="email" placeholder="your email" />
+                <textarea placeholder="write your message"></textarea>
+                <input type="button" value="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer_container">
+        <img class="footer-logo" src="./imgs/logo.png" />
+        <div class="social-media">
+          <a target="_blank" href="https://github.com/rahimia2007"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/rahimi.abolfazl.2007"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a target="_blank" href="mailto: rahimi.a.2007@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a target="_blank" href="https://t.me/rahimia1385"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+        </div>
+        <hr />
+        <p class="footer-developer">developed with ❤️ by abolfazl © 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
